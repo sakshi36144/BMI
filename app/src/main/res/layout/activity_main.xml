@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:ems="10"
+        android:hint="@string/hint_wt"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A" />
+
+    <EditText
+        android:id="@+id/edtHeightFt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:ems="10"
+        android:hint="@string/hint_ht_Ft"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A" />
+
+    <EditText
+        android:id="@+id/edtHeightIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="11dp"
+        android:ems="10"
+        android:hint="@string/hint_ht_In"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#546E7A" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#37474F"
+        android:text="@string/my_button"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:id="@+id/myButton"
+         android:layout_margin="11dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/solve"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:id="@+id/result"
+        android:layout_margin="11dp"/>
+</LinearLayout>
